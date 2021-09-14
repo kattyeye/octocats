@@ -1,0 +1,67 @@
+//@ts-check
+
+* {
+  box-sizing: border-box;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  /* when you have an overflow situation, break the words */
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+li.octocat {
+  display: inline;
+  float: left;
+  width: 33.32%;
+  padding: 5px;
+}
+
+li.octocat img {
+  display: inline;
+  //   position: relative;
+  border: 1px solid #cbcbcc;
+  border-radius: 2%;
+  //   position: relative;
+}
+// li.octocat img::after {
+//   content: "";
+//   border-top: 21px solid #cbcbcc;
+//   border-bottom: 21px solid transparent;
+//   border-left: 21px solid transparent;
+//   border-right: 21px solid transparent;
+// }
+
+div {
+  display: inline;
+}
+
+ul.authors img {
+  float: right;
+  position: relative;
+  width: 30px;
+}
+
+ul li::marker {
+  content: "#";
+  color: rgb(189, 189, 189);
+}
+
+div.image-footer {
+  display: inline;
+  color: gray;
+}
+div.image-footer span {
+  color: #7f7f82;
+}
+
+.image-caption a {
+  color: #373a3d;
+  text-decoration: none;
+}
